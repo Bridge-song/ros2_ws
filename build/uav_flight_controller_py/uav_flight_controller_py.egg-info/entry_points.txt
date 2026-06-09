@@ -1,0 +1,2 @@
+[console_scripts]
+flight_control_node = uav_flight_controller_py.flight_control_node:main

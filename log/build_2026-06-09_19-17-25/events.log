@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000634] (uav_flight_controller_py) JobQueued: {'identifier': 'uav_flight_controller_py', 'dependencies': OrderedDict({'px4_msgs': '/home/bridge/ros2_ws/install/px4_msgs'})}
+[0.000786] (uav_flight_controller_py) JobStarted: {'identifier': 'uav_flight_controller_py'}
+[0.004911] (uav_flight_controller_py) JobEnded: {'identifier': 'uav_flight_controller_py', 'rc': 1}
+[0.015298] (-) EventReactorShutdown: {}

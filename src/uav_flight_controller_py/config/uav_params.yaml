@@ -1,0 +1,26 @@
+# UAV参数配置
+/uav_controller:
+  ros__parameters:
+    use_sim_time: true
+    
+    # 飞行参数
+    takeoff_height: 3.0      # 起飞高度（米）
+    cruise_height: 5.0       # 巡航高度（米）
+    waypoint_tolerance: 0.5  # 到达误差容忍度（米）
+    waypoint_hold_time: 2.0  # 到达航点后悬停确认时间（秒）
+    use_relative_waypoints: true # 航点是否相对起飞点，而不是地图NED绝对原点
+    
+    # 控制频率
+    control_frequency: 20.0  # 主循环频率（Hz）
+    heartbeat_frequency: 10.0 # 心跳频率（Hz）
+    
+    # 任务点列表（NED坐标系：x北 y东 z下；负z表示向上）
+    # ROS 2参数不支持嵌套数组，这里用字符串数组配置航点。
+    waypoints:
+      - "0.0, 0.0, -3.0"   # 起飞
+      - "50.0, 0.0, -5.0"   # 点1
+      - "50.0, 50.0, -5.0"   # 点2
+      - "0.0, 50.0, -5.0"   # 点3
+      - "0.0, 0.0, -3.0"   # 返航
+      - "0.0, 0.0, -0.5"   # 下降
+      - "0.0, 0.0, 0.0"    # 降落

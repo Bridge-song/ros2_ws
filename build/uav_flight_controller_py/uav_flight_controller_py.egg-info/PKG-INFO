@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: uav-flight-controller-py
+Version: 0.0.1
+Summary: UAV flight controller for ROS2 + PX4 simulation
+Maintainer: bridge
+Maintainer-email: bridge@example.com
+License: MIT

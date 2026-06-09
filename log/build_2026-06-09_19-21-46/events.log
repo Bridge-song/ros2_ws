@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000704] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000792] (uav_flight_controller_py) JobQueued: {'identifier': 'uav_flight_controller_py', 'dependencies': OrderedDict({'px4_msgs': '/home/bridge/ros2_ws/install/px4_msgs'})}
+[0.000843] (uav_flight_controller_py) JobStarted: {'identifier': 'uav_flight_controller_py'}
+[0.099670] (-) TimerEvent: {}
+[0.199980] (-) TimerEvent: {}
+[0.300230] (-) TimerEvent: {}
+[0.400532] (-) TimerEvent: {}
+[0.500883] (-) TimerEvent: {}
+[0.601274] (-) TimerEvent: {}
+[0.701592] (-) TimerEvent: {}
+[0.714330] (uav_flight_controller_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/bridge/ros2_ws/build/uav_flight_controller_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/bridge/ros2_ws/build/uav_flight_controller_py', 'env': {'USER': 'bridge', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bridge/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bridge', 'OLDPWD': '/home/bridge/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2994', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/bridge/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bridge', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bridge', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/bridge-ubuntu:@/tmp/.ICE-unix/2954,unix/bridge-ubuntu:/tmp/.ICE-unix/2954', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03f90ea3_5075_4fad_a91d_2adb42bf0e2a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.223', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bridge/ros2_ws/install/px4_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bridge/ros2_ws/build/uav_flight_controller_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bridge/ros2_ws/build/uav_flight_controller_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridge/ros2_ws/install/uav_flight_controller_py/lib/python3.12/site-packages:/home/bridge/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bridge/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.801688] (-) TimerEvent: {}
+[0.901975] (-) TimerEvent: {}
+[0.937226] (uav_flight_controller_py) StdoutLine: {'line': b'running develop\n'}
+[1.002083] (-) TimerEvent: {}
+[1.059329] (uav_flight_controller_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.059582] (uav_flight_controller_py) StdoutLine: {'line': b'creating uav_flight_controller_py.egg-info\n'}
+[1.071712] (uav_flight_controller_py) StdoutLine: {'line': b'writing uav_flight_controller_py.egg-info/PKG-INFO\n'}
+[1.071911] (uav_flight_controller_py) StdoutLine: {'line': b'writing dependency_links to uav_flight_controller_py.egg-info/dependency_links.txt\n'}
+[1.072046] (uav_flight_controller_py) StdoutLine: {'line': b'writing entry points to uav_flight_controller_py.egg-info/entry_points.txt\n'}
+[1.072173] (uav_flight_controller_py) StdoutLine: {'line': b'writing requirements to uav_flight_controller_py.egg-info/requires.txt\n'}
+[1.072267] (uav_flight_controller_py) StdoutLine: {'line': b'writing top-level names to uav_flight_controller_py.egg-info/top_level.txt\n'}
+[1.072359] (uav_flight_controller_py) StdoutLine: {'line': b"writing manifest file 'uav_flight_controller_py.egg-info/SOURCES.txt'\n"}
+[1.096394] (uav_flight_controller_py) StdoutLine: {'line': b"reading manifest file 'uav_flight_controller_py.egg-info/SOURCES.txt'\n"}
+[1.096808] (uav_flight_controller_py) StdoutLine: {'line': b"writing manifest file 'uav_flight_controller_py.egg-info/SOURCES.txt'\n"}
+[1.102194] (-) TimerEvent: {}
+[1.109360] (uav_flight_controller_py) StdoutLine: {'line': b'running build_ext\n'}
+[1.109571] (uav_flight_controller_py) StdoutLine: {'line': b'Creating /home/bridge/ros2_ws/install/uav_flight_controller_py/lib/python3.12/site-packages/uav-flight-controller-py.egg-link (link to .)\n'}
+[1.109825] (uav_flight_controller_py) StdoutLine: {'line': b'Installing flight_control_node script to /home/bridge/ros2_ws/install/uav_flight_controller_py/lib/uav_flight_controller_py\n'}
+[1.110010] (uav_flight_controller_py) StdoutLine: {'line': b'\n'}
+[1.110133] (uav_flight_controller_py) StdoutLine: {'line': b'Installed /home/bridge/ros2_ws/build/uav_flight_controller_py\n'}
+[1.110248] (uav_flight_controller_py) StdoutLine: {'line': b'running symlink_data\n'}
+[1.110359] (uav_flight_controller_py) StdoutLine: {'line': b'creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/ament_index\n'}
+[1.110487] (uav_flight_controller_py) StdoutLine: {'line': b'creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/ament_index/resource_index\n'}
+[1.110585] (uav_flight_controller_py) StdoutLine: {'line': b'creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/ament_index/resource_index/packages\n'}
+[1.110672] (uav_flight_controller_py) StdoutLine: {'line': b'symbolically linking /home/bridge/ros2_ws/build/uav_flight_controller_py/resource/uav_flight_controller_py -> /home/bridge/ros2_ws/install/uav_flight_controller_py/share/ament_index/resource_index/packages\n'}
+[1.110760] (uav_flight_controller_py) StdoutLine: {'line': b'symbolically linking /home/bridge/ros2_ws/build/uav_flight_controller_py/package.xml -> /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py\n'}
+[1.110849] (uav_flight_controller_py) StdoutLine: {'line': b'creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py/launch\n'}
+[1.110938] (uav_flight_controller_py) StdoutLine: {'line': b'symbolically linking /home/bridge/ros2_ws/build/uav_flight_controller_py/launch/uav_control.launch.py -> /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py/launch\n'}
+[1.111026] (uav_flight_controller_py) StdoutLine: {'line': b'creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py/config\n'}
+[1.111113] (uav_flight_controller_py) StdoutLine: {'line': b'symbolically linking /home/bridge/ros2_ws/build/uav_flight_controller_py/config/uav_params.yaml -> /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py/config\n'}
+[1.134426] (uav_flight_controller_py) CommandEnded: {'returncode': 0}
+[1.141126] (uav_flight_controller_py) JobEnded: {'identifier': 'uav_flight_controller_py', 'rc': 0}
+[1.141730] (-) EventReactorShutdown: {}

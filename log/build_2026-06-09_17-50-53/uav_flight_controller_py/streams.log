@@ -1,0 +1,17 @@
+[0.525s] Invoking command in '/home/bridge/ros2_ws/build/uav_flight_controller_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bridge/ros2_ws/build/uav_flight_controller_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridge/ros2_ws/install/uav_flight_controller_py/lib/python3.12/site-packages:/home/bridge/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/bridge/ros2_ws/build/uav_flight_controller_py:/home/bridge/ros2_ws/install/uav_flight_controller_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bridge/ros2_ws/build/uav_flight_controller_py/build --no-deps symlink_data
+[0.730s] running develop
+[0.843s] running egg_info
+[0.854s] writing uav_flight_controller_py.egg-info/PKG-INFO
+[0.854s] writing dependency_links to uav_flight_controller_py.egg-info/dependency_links.txt
+[0.854s] writing entry points to uav_flight_controller_py.egg-info/entry_points.txt
+[0.855s] writing requirements to uav_flight_controller_py.egg-info/requires.txt
+[0.855s] writing top-level names to uav_flight_controller_py.egg-info/top_level.txt
+[0.877s] reading manifest file 'uav_flight_controller_py.egg-info/SOURCES.txt'
+[0.877s] writing manifest file 'uav_flight_controller_py.egg-info/SOURCES.txt'
+[0.889s] running build_ext
+[0.889s] Creating /home/bridge/ros2_ws/install/uav_flight_controller_py/lib/python3.12/site-packages/uav-flight-controller-py.egg-link (link to .)
+[0.889s] Installing flight_control_node script to /home/bridge/ros2_ws/install/uav_flight_controller_py/lib/uav_flight_controller_py
+[0.889s] 
+[0.890s] Installed /home/bridge/ros2_ws/build/uav_flight_controller_py
+[0.890s] running symlink_data
+[0.910s] Invoked command in '/home/bridge/ros2_ws/build/uav_flight_controller_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bridge/ros2_ws/build/uav_flight_controller_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bridge/ros2_ws/install/uav_flight_controller_py/lib/python3.12/site-packages:/home/bridge/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/bridge/ros2_ws/build/uav_flight_controller_py:/home/bridge/ros2_ws/install/uav_flight_controller_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bridge/ros2_ws/build/uav_flight_controller_py/build --no-deps symlink_data

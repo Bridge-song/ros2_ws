@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+config/uav_params.yaml
+launch/uav_control.launch.py
+resource/uav_flight_controller_py
+uav_flight_controller_py/__init__.py
+uav_flight_controller_py/flight_control_node.py
+uav_flight_controller_py.egg-info/PKG-INFO
+uav_flight_controller_py.egg-info/SOURCES.txt
+uav_flight_controller_py.egg-info/dependency_links.txt
+uav_flight_controller_py.egg-info/entry_points.txt
+uav_flight_controller_py.egg-info/requires.txt
+uav_flight_controller_py.egg-info/top_level.txt
+uav_flight_controller_py.egg-info/zip-safe

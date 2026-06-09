@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating uav_flight_controller_py.egg-info
+writing uav_flight_controller_py.egg-info/PKG-INFO
+writing dependency_links to uav_flight_controller_py.egg-info/dependency_links.txt
+writing entry points to uav_flight_controller_py.egg-info/entry_points.txt
+writing requirements to uav_flight_controller_py.egg-info/requires.txt
+writing top-level names to uav_flight_controller_py.egg-info/top_level.txt
+writing manifest file 'uav_flight_controller_py.egg-info/SOURCES.txt'
+reading manifest file 'uav_flight_controller_py.egg-info/SOURCES.txt'
+writing manifest file 'uav_flight_controller_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bridge/ros2_ws/install/uav_flight_controller_py/lib/python3.12/site-packages/uav-flight-controller-py.egg-link (link to .)
+Installing flight_control_node script to /home/bridge/ros2_ws/install/uav_flight_controller_py/lib/uav_flight_controller_py
+
+Installed /home/bridge/ros2_ws/build/uav_flight_controller_py
+running symlink_data
+creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/ament_index
+creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/ament_index/resource_index
+creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/ament_index/resource_index/packages
+symbolically linking /home/bridge/ros2_ws/build/uav_flight_controller_py/resource/uav_flight_controller_py -> /home/bridge/ros2_ws/install/uav_flight_controller_py/share/ament_index/resource_index/packages
+symbolically linking /home/bridge/ros2_ws/build/uav_flight_controller_py/package.xml -> /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py
+creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py/launch
+symbolically linking /home/bridge/ros2_ws/build/uav_flight_controller_py/launch/uav_control.launch.py -> /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py/launch
+creating /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py/config
+symbolically linking /home/bridge/ros2_ws/build/uav_flight_controller_py/config/uav_params.yaml -> /home/bridge/ros2_ws/install/uav_flight_controller_py/share/uav_flight_controller_py/config
